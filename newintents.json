@@ -1,0 +1,46 @@
+{
+  "intents": [
+      {
+          "tag": "greeting",
+          "patterns": ["Hi", "Hello", "Hey", "Good morning", "Good evening", "Howdy"],
+          "responses": ["Hello! How can I assist you today?", "Hi there! What can I do for you?", "Hey! Need help with something?"],
+          "context": [""]
+      },
+      {
+          "tag": "goodbye",
+          "patterns": ["Bye", "Goodbye", "See you later", "Take care", "Catch you later"],
+          "responses": ["Goodbye! Have a great day!", "See you later! Let us know if you need further help.", "Bye! Feel free to reach out anytime."],
+          "context": [""]
+      },
+      {
+          "tag": "thanks",
+          "patterns": ["Thanks", "Thank you", "Much appreciated", "Thanks a lot", "Cheers"],
+          "responses": ["You're welcome!", "Happy to help!", "Anytime! Let me know if there's anything else you need."],
+          "context": [""]
+      },
+      {
+          "tag": "order_status",
+          "patterns": ["Where is my order?", "Order status", "Track my package", "What’s the status of my order?", "Order update"],
+          "responses": ["Could you please provide your order ID? I’ll check it for you.", "Let me help you track your order. Do you have the order number handy?", "I can help with that. What's your order ID?"],
+          "context": [""]
+      },
+      {
+          "tag": "refund_policy",
+          "patterns": ["What is your refund policy?", "How can I return a product?", "Can I get a refund?", "Refund details", "Return policy"],
+          "responses": ["Our refund policy allows returns within 30 days of purchase. Would you like more details?", "You can return your product within 30 days. For refunds, please ensure the product is in its original condition.", "Refunds are processed after verifying the return. Let me know if you’d like me to initiate a return."],
+          "context": [""]
+      },
+      {
+          "tag": "technical_support",
+          "patterns": ["I'm facing an issue with your product", "How do I fix this problem?", "My account isn’t working", "There’s a bug in your app", "Need technical help"],
+          "responses": ["I'm sorry to hear that. Could you provide more details about the issue?", "Let me assist you with this. What problem are you facing?", "Please describe the issue you're experiencing, and I'll do my best to help."],
+          "context": [""]
+      },
+      {
+          "tag": "fallback",
+          "patterns": ["I don’t understand", "What do you mean?", "Can you explain?", "Not sure I get it"],
+          "responses": ["I’m sorry, I didn’t quite catch that. Could you please rephrase?", "I'm not sure I understand. Can you elaborate?", "Could you clarify that for me?"],
+          "context": [""]
+      }
+  ]
+}
