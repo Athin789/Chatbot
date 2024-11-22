@@ -69,11 +69,7 @@ if st.session_state.page == "home":
     with st.sidebar:
         st.image("logo.png", width=250)
         st.title("QuickCartBot 🤖")
-        st.write("At QuickCart, we’re dedicated to providing a seamless shopping experience, and our chatbot is here to make your journey even easier. Whether you need help tracking your order, understanding our return policy, or simply have a question about our products, our AI-powered chatbot is ready to assist you 24/7.
-
-With QuickCart’s chatbot, you get instant, accurate responses, and support at your fingertips. It’s like having a customer service agent available at all times, ensuring your questions are answered quickly and efficiently.
-
-Start chatting now and get the help you need in just a few clicks!")
+        st.write("At QuickCart, we’re dedicated to providing a seamless shopping experience, and our chatbot is here to make your journey even easier. Whether you need help tracking your order, understanding our return policy, or simply have a question about our products, our AI-powered chatbot is ready to assist you 24/7. With QuickCart’s chatbot, you get instant, accurate responses, and support at your fingertips. It’s like having a customer service agent available at all times, ensuring your questions are answered quickly and efficiently. Start chatting now and get the help you need in just a few clicks!")
 
     st.title("Welcome to QuickCart! 🎉")
     st.write("QuickCartBot is ready to answer your questions. Ask away!")
